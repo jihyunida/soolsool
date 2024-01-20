@@ -17,10 +17,10 @@ MonoBehaviour:
   categories: []
   uiBounds:
     serializedVersion: 2
-    x: 659
-    y: -457
-    width: 3391
-    height: 3478
+    x: 655
+    y: -458
+    width: 3395
+    height: 3479
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -61,8 +61,8 @@ MonoBehaviour:
   - {fileID: 8926484042661614902}
   - {fileID: 8926484042661614928}
   - {fileID: 8926484042661614970}
-  - {fileID: 8926484042661614975}
-  - {fileID: 8926484042661614977}
+  - {fileID: 8926484042661614979}
+  - {fileID: 8926484042661614981}
   m_UIPosition: {x: 0, y: 0}
   m_UICollapsed: 1
   m_UISuperCollapsed: 0
@@ -102,7 +102,7 @@ VisualEffectResource:
       receiveShadows: 0
       reflectionProbeUsage: 0
       lightProbeUsage: 0
-    m_CullingFlags: 3
+    m_CullingFlags: 0
     m_UpdateMode: 0
     m_PreWarmDeltaTime: 0.05
     m_PreWarmStepCount: 0
@@ -134,10 +134,10 @@ MonoBehaviour:
   m_Data: {fileID: 8926484042661614595}
   m_InputFlowSlot:
   - link:
-    - context: {fileID: 8926484042661614975}
+    - context: {fileID: 8926484042661614979}
       slotIndex: 0
   - link:
-    - context: {fileID: 8926484042661614977}
+    - context: {fileID: 8926484042661614981}
       slotIndex: 0
   m_OutputFlowSlot:
   - link:
@@ -258,7 +258,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614560}
   - {fileID: 8926484042661614564}
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_MasterSlot: {fileID: 8926484042661614559}
   m_MasterData:
@@ -570,7 +570,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614583}
   - {fileID: 8926484042661614585}
   dataType: 0
-  capacity: 32
+  capacity: 200
   stripCapacity: 16
   particlePerStripCount: 16
   needsComputeBounds: 0
@@ -9222,7 +9222,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: True
+      m_SerializableObject: False
     m_Space: 2147483647
   m_Property:
     name: _vfx_enabled
@@ -10242,7 +10242,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
   m_Direction: 1
   m_LinkedSlots: []
---- !u!114 &8926484042661614975
+--- !u!114 &8926484042661614979
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10257,13 +10257,13 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 729, y: -427}
+  m_UIPosition: {x: 655, y: -458}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots: []
   m_Label: 
-  m_Data: {fileID: 8926484042661614976}
+  m_Data: {fileID: 8926484042661614980}
   m_InputFlowSlot:
   - link: []
   m_OutputFlowSlot:
@@ -10271,7 +10271,7 @@ MonoBehaviour:
     - context: {fileID: 8926484042661614555}
       slotIndex: 0
   eventName: OnPlayFlower
---- !u!114 &8926484042661614976
+--- !u!114 &8926484042661614980
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10291,8 +10291,8 @@ MonoBehaviour:
   m_UISuperCollapsed: 0
   title: 
   m_Owners:
-  - {fileID: 8926484042661614975}
---- !u!114 &8926484042661614977
+  - {fileID: 8926484042661614979}
+--- !u!114 &8926484042661614981
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10307,21 +10307,21 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 1227, y: -457}
+  m_UIPosition: {x: 1226, y: -414.66663}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots: []
   m_Label: 
-  m_Data: {fileID: 8926484042661614978}
+  m_Data: {fileID: 8926484042661614982}
   m_InputFlowSlot:
   - link: []
   m_OutputFlowSlot:
   - link:
     - context: {fileID: 8926484042661614555}
       slotIndex: 1
-  eventName: OnStopFlower
---- !u!114 &8926484042661614978
+  eventName: OnStopFlowe
+--- !u!114 &8926484042661614982
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10341,4 +10341,4 @@ MonoBehaviour:
   m_UISuperCollapsed: 0
   title: 
   m_Owners:
-  - {fileID: 8926484042661614977}
+  - {fileID: 8926484042661614981}
